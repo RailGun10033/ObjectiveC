@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9625F6B225FC5A7B005BAB06 /* KMMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9625F6B125FC5A7B005BAB06 /* KMMusicManager.m */; };
+		9625F6B525FC5FE9005BAB06 /* KMMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9625F6B425FC5FE9005BAB06 /* KMMusicModel.m */; };
+		9652A3E625F9BA61006DAD5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652A3E525F9BA61006DAD5B /* AppDelegate.m */; };
+		9652A3E925F9BA61006DAD5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652A3E825F9BA61006DAD5B /* ViewController.m */; };
+		9652A3EB25F9BA62006DAD5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9652A3EA25F9BA62006DAD5B /* Assets.xcassets */; };
+		9652A3EE25F9BA62006DAD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9652A3EC25F9BA62006DAD5B /* Main.storyboard */; };
+		9652A3F125F9BA62006DAD5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652A3F025F9BA62006DAD5B /* main.m */; };
+		9652A3FF25F9BB95006DAD5B /* KMLyricParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652A3FE25F9BB95006DAD5B /* KMLyricParser.m */; };
+		9652A40225F9BBCC006DAD5B /* KMLyricModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652A40125F9BBCC006DAD5B /* KMLyricModel.m */; };
+		9652A41B25F9BD03006DAD5B /* 月半小夜曲.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 9652A40425F9BD03006DAD5B /* 月半小夜曲.lrc */; };
+		9652A41C25F9BD03006DAD5B /* 李克勤 - 月半小夜曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9652A40525F9BD03006DAD5B /* 李克勤 - 月半小夜曲.mp3 */; };
+		9652A41D25F9BD03006DAD5B /* buyao.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9652A40625F9BD03006DAD5B /* buyao.wav */; };
+		9652A41E25F9BD03006DAD5B /* I'm yours.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 9652A40725F9BD03006DAD5B /* I'm yours.lrc */; };
+		9652A41F25F9BD03006DAD5B /* G.E.M. 邓紫棋 - 泡沫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9652A40825F9BD03006DAD5B /* G.E.M. 邓紫棋 - 泡沫.mp3 */; };
+		9652A42025F9BD03006DAD5B /* xpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9652A40925F9BD03006DAD5B /* xpg.jpg */; };
+		9652A42125F9BD03006DAD5B /* Owl City - The Saltwater Room.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9652A40A25F9BD03006DAD5B /* Owl City - The Saltwater Room.mp3 */; };
+		9652A42225F9BD03006DAD5B /* st.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9652A40B25F9BD03006DAD5B /* st.jpg */; };
+		9652A42325F9BD03006DAD5B /* Jason Mraz - I'm Yours.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9652A40C25F9BD03006DAD5B /* Jason Mraz - I'm Yours.mp3 */; };
+		9652A42425F9BD03006DAD5B /* jason.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9652A40D25F9BD03006DAD5B /* jason.jpg */; };
+		9652A42525F9BD03006DAD5B /* paomo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9652A40E25F9BD03006DAD5B /* paomo.jpg */; };
+		9652A42625F9BD03006DAD5B /* 稳稳的幸福.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 9652A40F25F9BD03006DAD5B /* 稳稳的幸福.lrc */; };
+		9652A42725F9BD03006DAD5B /* 小苹果.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9652A41025F9BD03006DAD5B /* 小苹果.mp3 */; };
+		9652A42825F9BD03006DAD5B /* mlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9652A41125F9BD03006DAD5B /* mlist.plist */; };
+		9652A42925F9BD03006DAD5B /* The salt water room.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 9652A41225F9BD03006DAD5B /* The salt water room.lrc */; };
+		9652A42A25F9BD03006DAD5B /* 张译 - 稳稳的幸福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9652A41325F9BD03006DAD5B /* 张译 - 稳稳的幸福.mp3 */; };
+		9652A42B25F9BD03006DAD5B /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 9652A41425F9BD03006DAD5B /* Contents.json */; };
+		9652A42C25F9BD03006DAD5B /* 小苹果.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 9652A41525F9BD03006DAD5B /* 小苹果.lrc */; };
+		9652A42D25F9BD03006DAD5B /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9652A41625F9BD03006DAD5B /* test.wav */; };
+		9652A42E25F9BD03006DAD5B /* lamazhengzhuan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9652A41725F9BD03006DAD5B /* lamazhengzhuan.jpg */; };
+		9652A42F25F9BD03006DAD5B /* 李克勤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9652A41825F9BD03006DAD5B /* 李克勤.jpg */; };
+		9652A43025F9BD03006DAD5B /* 泡沫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 9652A41925F9BD03006DAD5B /* 泡沫.lrc */; };
+		9652A43125F9BD03006DAD5B /* chatcome.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9652A41A25F9BD03006DAD5B /* chatcome.wav */; };
+		9652A43425F9CB14006DAD5B /* KMColorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652A43325F9CB14006DAD5B /* KMColorLabel.m */; };
+		9652A43725F9CB6A006DAD5B /* KMLyricView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652A43625F9CB6A006DAD5B /* KMLyricView.m */; };
+		9687498125FB3B9C00D314CB /* KMControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9687498025FB3B9C00D314CB /* KMControlView.m */; };
+		9687498325FB594D00D314CB /* constrait.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9687498225FB594D00D314CB /* constrait.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9625F6B025FC5A7B005BAB06 /* KMMusicManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMMusicManager.h; sourceTree = "<group>"; };
+		9625F6B125FC5A7B005BAB06 /* KMMusicManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMMusicManager.m; sourceTree = "<group>"; };
+		9625F6B325FC5FE9005BAB06 /* KMMusicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMMusicModel.h; sourceTree = "<group>"; };
+		9625F6B425FC5FE9005BAB06 /* KMMusicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMMusicModel.m; sourceTree = "<group>"; };
+		9652A3E125F9BA61006DAD5B /* KMMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9652A3E425F9BA61006DAD5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9652A3E525F9BA61006DAD5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9652A3E725F9BA61006DAD5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9652A3E825F9BA61006DAD5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9652A3EA25F9BA62006DAD5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9652A3ED25F9BA62006DAD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9652A3EF25F9BA62006DAD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9652A3F025F9BA62006DAD5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9652A3F225F9BA62006DAD5B /* KMMusic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KMMusic.entitlements; sourceTree = "<group>"; };
+		9652A3FD25F9BB95006DAD5B /* KMLyricParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMLyricParser.h; sourceTree = "<group>"; };
+		9652A3FE25F9BB95006DAD5B /* KMLyricParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMLyricParser.m; sourceTree = "<group>"; };
+		9652A40025F9BBCC006DAD5B /* KMLyricModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMLyricModel.h; sourceTree = "<group>"; };
+		9652A40125F9BBCC006DAD5B /* KMLyricModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMLyricModel.m; sourceTree = "<group>"; };
+		9652A40425F9BD03006DAD5B /* 月半小夜曲.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "月半小夜曲.lrc"; sourceTree = "<group>"; };
+		9652A40525F9BD03006DAD5B /* 李克勤 - 月半小夜曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李克勤 - 月半小夜曲.mp3"; sourceTree = "<group>"; };
+		9652A40625F9BD03006DAD5B /* buyao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buyao.wav; sourceTree = "<group>"; };
+		9652A40725F9BD03006DAD5B /* I'm yours.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "I'm yours.lrc"; sourceTree = "<group>"; };
+		9652A40825F9BD03006DAD5B /* G.E.M. 邓紫棋 - 泡沫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G.E.M. 邓紫棋 - 泡沫.mp3"; sourceTree = "<group>"; };
+		9652A40925F9BD03006DAD5B /* xpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xpg.jpg; sourceTree = "<group>"; };
+		9652A40A25F9BD03006DAD5B /* Owl City - The Saltwater Room.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Owl City - The Saltwater Room.mp3"; sourceTree = "<group>"; };
+		9652A40B25F9BD03006DAD5B /* st.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = st.jpg; sourceTree = "<group>"; };
+		9652A40C25F9BD03006DAD5B /* Jason Mraz - I'm Yours.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jason Mraz - I'm Yours.mp3"; sourceTree = "<group>"; };
+		9652A40D25F9BD03006DAD5B /* jason.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jason.jpg; sourceTree = "<group>"; };
+		9652A40E25F9BD03006DAD5B /* paomo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paomo.jpg; sourceTree = "<group>"; };
+		9652A40F25F9BD03006DAD5B /* 稳稳的幸福.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "稳稳的幸福.lrc"; sourceTree = "<group>"; };
+		9652A41025F9BD03006DAD5B /* 小苹果.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "小苹果.mp3"; sourceTree = "<group>"; };
+		9652A41125F9BD03006DAD5B /* mlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mlist.plist; sourceTree = "<group>"; };
+		9652A41225F9BD03006DAD5B /* The salt water room.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The salt water room.lrc"; sourceTree = "<group>"; };
+		9652A41325F9BD03006DAD5B /* 张译 - 稳稳的幸福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "张译 - 稳稳的幸福.mp3"; sourceTree = "<group>"; };
+		9652A41425F9BD03006DAD5B /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		9652A41525F9BD03006DAD5B /* 小苹果.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "小苹果.lrc"; sourceTree = "<group>"; };
+		9652A41625F9BD03006DAD5B /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
+		9652A41725F9BD03006DAD5B /* lamazhengzhuan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lamazhengzhuan.jpg; sourceTree = "<group>"; };
+		9652A41825F9BD03006DAD5B /* 李克勤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李克勤.jpg"; sourceTree = "<group>"; };
+		9652A41925F9BD03006DAD5B /* 泡沫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "泡沫.lrc"; sourceTree = "<group>"; };
+		9652A41A25F9BD03006DAD5B /* chatcome.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chatcome.wav; sourceTree = "<group>"; };
+		9652A43225F9CB14006DAD5B /* KMColorLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMColorLabel.h; sourceTree = "<group>"; };
+		9652A43325F9CB14006DAD5B /* KMColorLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMColorLabel.m; sourceTree = "<group>"; };
+		9652A43525F9CB6A006DAD5B /* KMLyricView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMLyricView.h; sourceTree = "<group>"; };
+		9652A43625F9CB6A006DAD5B /* KMLyricView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMLyricView.m; sourceTree = "<group>"; };
+		9687497F25FB3B9C00D314CB /* KMControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMControlView.h; sourceTree = "<group>"; };
+		9687498025FB3B9C00D314CB /* KMControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMControlView.m; sourceTree = "<group>"; };
+		9687498225FB594D00D314CB /* constrait.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = constrait.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9652A3DE25F9BA61006DAD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9652A3D825F9BA61006DAD5B = {
+			isa = PBXGroup;
+			children = (
+				9652A3E325F9BA61006DAD5B /* KMMusic */,
+				9652A3E225F9BA61006DAD5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9652A3E225F9BA61006DAD5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9652A3E125F9BA61006DAD5B /* KMMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9652A3E325F9BA61006DAD5B /* KMMusic */ = {
+			isa = PBXGroup;
+			children = (
+				9652A3E425F9BA61006DAD5B /* AppDelegate.h */,
+				9652A3E525F9BA61006DAD5B /* AppDelegate.m */,
+				9652A3F825F9BAA3006DAD5B /* KeyClasses */,
+				9652A40325F9BD03006DAD5B /* Sources */,
+				9652A3EA25F9BA62006DAD5B /* Assets.xcassets */,
+				9652A3EC25F9BA62006DAD5B /* Main.storyboard */,
+				9652A3EF25F9BA62006DAD5B /* Info.plist */,
+				9652A3F025F9BA62006DAD5B /* main.m */,
+				9652A3F225F9BA62006DAD5B /* KMMusic.entitlements */,
+			);
+			path = KMMusic;
+			sourceTree = "<group>";
+		};
+		9652A3F825F9BAA3006DAD5B /* KeyClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9652A3FA25F9BADC006DAD5B /* Models */,
+				9652A3FB25F9BAED006DAD5B /* Views */,
+				9652A3F925F9BAB3006DAD5B /* Controllers */,
+				9652A3FC25F9BB03006DAD5B /* Others */,
+			);
+			path = KeyClasses;
+			sourceTree = "<group>";
+		};
+		9652A3F925F9BAB3006DAD5B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9652A3E725F9BA61006DAD5B /* ViewController.h */,
+				9652A3E825F9BA61006DAD5B /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9652A3FA25F9BADC006DAD5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9652A40025F9BBCC006DAD5B /* KMLyricModel.h */,
+				9652A40125F9BBCC006DAD5B /* KMLyricModel.m */,
+				9652A3FD25F9BB95006DAD5B /* KMLyricParser.h */,
+				9652A3FE25F9BB95006DAD5B /* KMLyricParser.m */,
+				9625F6B325FC5FE9005BAB06 /* KMMusicModel.h */,
+				9625F6B425FC5FE9005BAB06 /* KMMusicModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9652A3FB25F9BAED006DAD5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9652A43225F9CB14006DAD5B /* KMColorLabel.h */,
+				9652A43325F9CB14006DAD5B /* KMColorLabel.m */,
+				9652A43525F9CB6A006DAD5B /* KMLyricView.h */,
+				9652A43625F9CB6A006DAD5B /* KMLyricView.m */,
+				9687497F25FB3B9C00D314CB /* KMControlView.h */,
+				9687498025FB3B9C00D314CB /* KMControlView.m */,
+				9687498225FB594D00D314CB /* constrait.rtf */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9652A3FC25F9BB03006DAD5B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				9625F6B025FC5A7B005BAB06 /* KMMusicManager.h */,
+				9625F6B125FC5A7B005BAB06 /* KMMusicManager.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		9652A40325F9BD03006DAD5B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9652A40425F9BD03006DAD5B /* 月半小夜曲.lrc */,
+				9652A40525F9BD03006DAD5B /* 李克勤 - 月半小夜曲.mp3 */,
+				9652A40625F9BD03006DAD5B /* buyao.wav */,
+				9652A40725F9BD03006DAD5B /* I'm yours.lrc */,
+				9652A40825F9BD03006DAD5B /* G.E.M. 邓紫棋 - 泡沫.mp3 */,
+				9652A40925F9BD03006DAD5B /* xpg.jpg */,
+				9652A40A25F9BD03006DAD5B /* Owl City - The Saltwater Room.mp3 */,
+				9652A40B25F9BD03006DAD5B /* st.jpg */,
+				9652A40C25F9BD03006DAD5B /* Jason Mraz - I'm Yours.mp3 */,
+				9652A40D25F9BD03006DAD5B /* jason.jpg */,
+				9652A40E25F9BD03006DAD5B /* paomo.jpg */,
+				9652A40F25F9BD03006DAD5B /* 稳稳的幸福.lrc */,
+				9652A41025F9BD03006DAD5B /* 小苹果.mp3 */,
+				9652A41125F9BD03006DAD5B /* mlist.plist */,
+				9652A41225F9BD03006DAD5B /* The salt water room.lrc */,
+				9652A41325F9BD03006DAD5B /* 张译 - 稳稳的幸福.mp3 */,
+				9652A41425F9BD03006DAD5B /* Contents.json */,
+				9652A41525F9BD03006DAD5B /* 小苹果.lrc */,
+				9652A41625F9BD03006DAD5B /* test.wav */,
+				9652A41725F9BD03006DAD5B /* lamazhengzhuan.jpg */,
+				9652A41825F9BD03006DAD5B /* 李克勤.jpg */,
+				9652A41925F9BD03006DAD5B /* 泡沫.lrc */,
+				9652A41A25F9BD03006DAD5B /* chatcome.wav */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9652A3E025F9BA61006DAD5B /* KMMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9652A3F525F9BA62006DAD5B /* Build configuration list for PBXNativeTarget "KMMusic" */;
+			buildPhases = (
+				9652A3DD25F9BA61006DAD5B /* Sources */,
+				9652A3DE25F9BA61006DAD5B /* Frameworks */,
+				9652A3DF25F9BA61006DAD5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMMusic;
+			productName = KMMusic;
+			productReference = 9652A3E125F9BA61006DAD5B /* KMMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9652A3D925F9BA61006DAD5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = KM;
+				TargetAttributes = {
+					9652A3E025F9BA61006DAD5B = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9652A3DC25F9BA61006DAD5B /* Build configuration list for PBXProject "KMMusic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9652A3D825F9BA61006DAD5B;
+			productRefGroup = 9652A3E225F9BA61006DAD5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9652A3E025F9BA61006DAD5B /* KMMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9652A3DF25F9BA61006DAD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9652A42725F9BD03006DAD5B /* 小苹果.mp3 in Resources */,
+				9652A42225F9BD03006DAD5B /* st.jpg in Resources */,
+				9652A42E25F9BD03006DAD5B /* lamazhengzhuan.jpg in Resources */,
+				9652A42C25F9BD03006DAD5B /* 小苹果.lrc in Resources */,
+				9652A42325F9BD03006DAD5B /* Jason Mraz - I'm Yours.mp3 in Resources */,
+				9652A42F25F9BD03006DAD5B /* 李克勤.jpg in Resources */,
+				9652A41B25F9BD03006DAD5B /* 月半小夜曲.lrc in Resources */,
+				9652A42625F9BD03006DAD5B /* 稳稳的幸福.lrc in Resources */,
+				9652A42425F9BD03006DAD5B /* jason.jpg in Resources */,
+				9652A43025F9BD03006DAD5B /* 泡沫.lrc in Resources */,
+				9652A3EB25F9BA62006DAD5B /* Assets.xcassets in Resources */,
+				9652A41D25F9BD03006DAD5B /* buyao.wav in Resources */,
+				9652A41F25F9BD03006DAD5B /* G.E.M. 邓紫棋 - 泡沫.mp3 in Resources */,
+				9652A42125F9BD03006DAD5B /* Owl City - The Saltwater Room.mp3 in Resources */,
+				9687498325FB594D00D314CB /* constrait.rtf in Resources */,
+				9652A41C25F9BD03006DAD5B /* 李克勤 - 月半小夜曲.mp3 in Resources */,
+				9652A43125F9BD03006DAD5B /* chatcome.wav in Resources */,
+				9652A42A25F9BD03006DAD5B /* 张译 - 稳稳的幸福.mp3 in Resources */,
+				9652A42025F9BD03006DAD5B /* xpg.jpg in Resources */,
+				9652A3EE25F9BA62006DAD5B /* Main.storyboard in Resources */,
+				9652A41E25F9BD03006DAD5B /* I'm yours.lrc in Resources */,
+				9652A42825F9BD03006DAD5B /* mlist.plist in Resources */,
+				9652A42525F9BD03006DAD5B /* paomo.jpg in Resources */,
+				9652A42D25F9BD03006DAD5B /* test.wav in Resources */,
+				9652A42925F9BD03006DAD5B /* The salt water room.lrc in Resources */,
+				9652A42B25F9BD03006DAD5B /* Contents.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9652A3DD25F9BA61006DAD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9652A40225F9BBCC006DAD5B /* KMLyricModel.m in Sources */,
+				9652A3E925F9BA61006DAD5B /* ViewController.m in Sources */,
+				9652A43425F9CB14006DAD5B /* KMColorLabel.m in Sources */,
+				9625F6B525FC5FE9005BAB06 /* KMMusicModel.m in Sources */,
+				9652A3F125F9BA62006DAD5B /* main.m in Sources */,
+				9652A3FF25F9BB95006DAD5B /* KMLyricParser.m in Sources */,
+				9625F6B225FC5A7B005BAB06 /* KMMusicManager.m in Sources */,
+				9652A43725F9CB6A006DAD5B /* KMLyricView.m in Sources */,
+				9687498125FB3B9C00D314CB /* KMControlView.m in Sources */,
+				9652A3E625F9BA61006DAD5B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9652A3EC25F9BA62006DAD5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9652A3ED25F9BA62006DAD5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9652A3F325F9BA62006DAD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9652A3F425F9BA62006DAD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9652A3F625F9BA62006DAD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KMMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KM.KMMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9652A3F725F9BA62006DAD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KMMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KM.KMMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9652A3DC25F9BA61006DAD5B /* Build configuration list for PBXProject "KMMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9652A3F325F9BA62006DAD5B /* Debug */,
+				9652A3F425F9BA62006DAD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9652A3F525F9BA62006DAD5B /* Build configuration list for PBXNativeTarget "KMMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9652A3F625F9BA62006DAD5B /* Debug */,
+				9652A3F725F9BA62006DAD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9652A3D925F9BA61006DAD5B /* Project object */;
+}
