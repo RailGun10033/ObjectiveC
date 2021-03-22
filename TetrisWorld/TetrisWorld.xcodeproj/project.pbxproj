@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		967DD4932604770E005B49CD /* FourCellsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 967DD4922604770E005B49CD /* FourCellsModel.m */; };
+		96CE5939260302EC0050FB23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CE5938260302EC0050FB23 /* AppDelegate.m */; };
+		96CE593C260302EC0050FB23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CE593B260302EC0050FB23 /* ViewController.m */; };
+		96CE593E260302ED0050FB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CE593D260302ED0050FB23 /* Assets.xcassets */; };
+		96CE5941260302EE0050FB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CE593F260302EE0050FB23 /* Main.storyboard */; };
+		96CE5944260302EE0050FB23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CE5943260302EE0050FB23 /* main.m */; };
+		96CE5954260305990050FB23 /* ContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CE5953260305990050FB23 /* ContainerView.m */; };
+		96CE595E26031F910050FB23 /* TetrisModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CE595D26031F910050FB23 /* TetrisModel.m */; };
+		96CE596126031F9D0050FB23 /* ContainerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CE596026031F9D0050FB23 /* ContainerModel.m */; };
+		96CE5967260320B10050FB23 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CE5966260320B10050FB23 /* CellModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		967DD4912604770E005B49CD /* FourCellsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourCellsModel.h; sourceTree = "<group>"; };
+		967DD4922604770E005B49CD /* FourCellsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourCellsModel.m; sourceTree = "<group>"; };
+		96CE5934260302EC0050FB23 /* TetrisWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetrisWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CE5937260302EC0050FB23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96CE5938260302EC0050FB23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96CE593A260302EC0050FB23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96CE593B260302EC0050FB23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96CE593D260302ED0050FB23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96CE5940260302EE0050FB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96CE5942260302EE0050FB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CE5943260302EE0050FB23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96CE5945260302EE0050FB23 /* TetrisWorld.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TetrisWorld.entitlements; sourceTree = "<group>"; };
+		96CE5952260305990050FB23 /* ContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerView.h; sourceTree = "<group>"; };
+		96CE5953260305990050FB23 /* ContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerView.m; sourceTree = "<group>"; };
+		96CE59582603184B0050FB23 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = TetrisWorld/Others/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		96CE595C26031F910050FB23 /* TetrisModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TetrisModel.h; sourceTree = "<group>"; };
+		96CE595D26031F910050FB23 /* TetrisModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetrisModel.m; sourceTree = "<group>"; };
+		96CE595F26031F9D0050FB23 /* ContainerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerModel.h; sourceTree = "<group>"; };
+		96CE596026031F9D0050FB23 /* ContainerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerModel.m; sourceTree = "<group>"; };
+		96CE5965260320B10050FB23 /* CellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		96CE5966260320B10050FB23 /* CellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96CE5931260302EC0050FB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96CE592B260302EC0050FB23 = {
+			isa = PBXGroup;
+			children = (
+				96CE5936260302EC0050FB23 /* TetrisWorld */,
+				96CE5935260302EC0050FB23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96CE5935260302EC0050FB23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96CE5934260302EC0050FB23 /* TetrisWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96CE5936260302EC0050FB23 /* TetrisWorld */ = {
+			isa = PBXGroup;
+			children = (
+				96CE594E260303F60050FB23 /* Others */,
+				96CE594B260303030050FB23 /* Models */,
+				96CE594C260303110050FB23 /* Views */,
+				96CE594D260303190050FB23 /* Controllers */,
+				96CE5937260302EC0050FB23 /* AppDelegate.h */,
+				96CE5938260302EC0050FB23 /* AppDelegate.m */,
+				96CE593D260302ED0050FB23 /* Assets.xcassets */,
+				96CE593F260302EE0050FB23 /* Main.storyboard */,
+				96CE5942260302EE0050FB23 /* Info.plist */,
+				96CE5943260302EE0050FB23 /* main.m */,
+				96CE5945260302EE0050FB23 /* TetrisWorld.entitlements */,
+			);
+			path = TetrisWorld;
+			sourceTree = "<group>";
+		};
+		96CE594B260303030050FB23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				96CE5965260320B10050FB23 /* CellModel.h */,
+				96CE5966260320B10050FB23 /* CellModel.m */,
+				967DD4912604770E005B49CD /* FourCellsModel.h */,
+				967DD4922604770E005B49CD /* FourCellsModel.m */,
+				96CE595C26031F910050FB23 /* TetrisModel.h */,
+				96CE595D26031F910050FB23 /* TetrisModel.m */,
+				96CE595F26031F9D0050FB23 /* ContainerModel.h */,
+				96CE596026031F9D0050FB23 /* ContainerModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		96CE594C260303110050FB23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96CE5952260305990050FB23 /* ContainerView.h */,
+				96CE5953260305990050FB23 /* ContainerView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96CE594D260303190050FB23 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				96CE593A260302EC0050FB23 /* ViewController.h */,
+				96CE593B260302EC0050FB23 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		96CE594E260303F60050FB23 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				96CE59582603184B0050FB23 /* PrefixHeader.pch */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96CE5933260302EC0050FB23 /* TetrisWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CE5948260302EE0050FB23 /* Build configuration list for PBXNativeTarget "TetrisWorld" */;
+			buildPhases = (
+				96CE5930260302EC0050FB23 /* Sources */,
+				96CE5931260302EC0050FB23 /* Frameworks */,
+				96CE5932260302EC0050FB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TetrisWorld;
+			productName = TetrisWorld;
+			productReference = 96CE5934260302EC0050FB23 /* TetrisWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96CE592C260302EC0050FB23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = KM;
+				TargetAttributes = {
+					96CE5933260302EC0050FB23 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 96CE592F260302EC0050FB23 /* Build configuration list for PBXProject "TetrisWorld" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96CE592B260302EC0050FB23;
+			productRefGroup = 96CE5935260302EC0050FB23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96CE5933260302EC0050FB23 /* TetrisWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96CE5932260302EC0050FB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CE593E260302ED0050FB23 /* Assets.xcassets in Resources */,
+				96CE5941260302EE0050FB23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96CE5930260302EC0050FB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CE5954260305990050FB23 /* ContainerView.m in Sources */,
+				96CE593C260302EC0050FB23 /* ViewController.m in Sources */,
+				96CE5967260320B10050FB23 /* CellModel.m in Sources */,
+				96CE5944260302EE0050FB23 /* main.m in Sources */,
+				96CE595E26031F910050FB23 /* TetrisModel.m in Sources */,
+				96CE5939260302EC0050FB23 /* AppDelegate.m in Sources */,
+				96CE596126031F9D0050FB23 /* ContainerModel.m in Sources */,
+				967DD4932604770E005B49CD /* FourCellsModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96CE593F260302EE0050FB23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CE5940260302EE0050FB23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96CE5946260302EE0050FB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Others/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96CE5947260302EE0050FB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Others/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96CE5949260302EE0050FB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TetrisWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KM.TetrisWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96CE594A260302EE0050FB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TetrisWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KM.TetrisWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96CE592F260302EC0050FB23 /* Build configuration list for PBXProject "TetrisWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CE5946260302EE0050FB23 /* Debug */,
+				96CE5947260302EE0050FB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CE5948260302EE0050FB23 /* Build configuration list for PBXNativeTarget "TetrisWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CE5949260302EE0050FB23 /* Debug */,
+				96CE594A260302EE0050FB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96CE592C260302EC0050FB23 /* Project object */;
+}
